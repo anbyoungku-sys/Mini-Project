@@ -261,4 +261,4 @@ if not df.empty:
     )
     st.dataframe(styled_df, use_container_width=True, height=400)
 else:
-    st.write("데이터 없음")
+    st.write("수집된 데이터가 없습니다.")
